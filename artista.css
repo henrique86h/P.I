@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(173, 164, 190);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,7 +17,7 @@
     
 }
 .nome_artista {
-    color: rgb(255, 255, 255);
+    color: rgb(110, 102, 102);
     display: inline-block;
     font-size: 20px;
 }
@@ -26,11 +26,29 @@
 }
 .box-degrade {
     width: 100%;
-    padding: 300px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(to left, red, blue);
-    background-size: 500% 100%;
+    background-image: linear-gradient(2500000deg, red, blue);
+    background-size: 300% 100%;
     animation: degrade-animado 5s infinite alternate ;
+}
+
+.fotoart {
+    width: 400px;
+}
+
+.coluna {
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 130px;
+    column-count: 3;
+}
+
+.texto-artista {
+    color: aliceblue ;
+    width: 500px;
+    word-wrap: break-word;
+    line-height: normal;
+}
+
+.coluna2 {
+    padding-top: 50px;
 }
