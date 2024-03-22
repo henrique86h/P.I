@@ -37,9 +37,11 @@
 
 .coluna {
     justify-content: space-between;
-    padding-left: 20px;
     padding-top: 130px;
     column-count: 3;
+}
+.foto-artista {
+    margin-left: 50px;
 }
 
 .texto-artista {
@@ -51,13 +53,15 @@
 }
 
 .coluna2 {
-    padding-top: 50px;
+    columns: 3;
+    margin-top: 50px;
     margin-left: 50px;
 }
 
 .coluna3{
+    columns: 3;
     color: aliceblue;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 
